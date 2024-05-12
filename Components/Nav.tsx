@@ -20,10 +20,10 @@ const Nav = ({openNav}:Props) => {
                 </span>
             </h1>
             <div className='flex items-center'>
-                <div className='nav-link'> Home</div>
-                <div className='nav-link'> Blog</div>
-                <div className='nav-link'> Projects</div>
-                <div className='nav-link'> Contact</div>
+                <div className='nav-link ml-50'> Home</div>
+                <div className='nav-link ml-20'> Blog</div>
+                <div className='nav-link ml-20'> Projects</div>
+                <div className='nav-link ml-20'> Contact</div>
             </div>
             <div onClick={openNav}>
                 <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300' />

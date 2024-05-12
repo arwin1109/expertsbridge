@@ -17,7 +17,7 @@ const TextEffect = () => {
       //wrapper="span"
       speed={50}
       //style={{ fontSize: '2em', display: 'inline-block' }}
-      className='text-[2rem] md:text-[3rem] text-[#55e6a5] font-bold uppercase'
+      className='text-[1rem] md:text-[3rem] text-[#55e6a5] font-bold uppercase'
       repeat={Infinity}
     />
   );
